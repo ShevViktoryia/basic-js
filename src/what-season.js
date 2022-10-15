@@ -12,6 +12,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * 
  */
 function getSeason(date) {
+  // throw new NotImplementedError('Not implemented');
   if(!date) {
     return 'Unable to determine the time of year!';
   }
